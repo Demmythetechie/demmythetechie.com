@@ -13,10 +13,10 @@ function Header(){
             <div className="w-[200px] flex flex-row justify-between items-center">
                 <Link className="text-center text-[15px] w-[100px] h-[30px] text-white bg-[#DD2E3A] rounded-[20px] pt-[5px] pb-[5px]" to="/contact">Let's Talk</Link>
                 <div className="flex flex-row gap-x-[20px]">
-                    <a>
+                    <a href="/">
                         <img className="w-[20px] h-[20px]" src="github.png" alt=""/>
                     </a>
-                    <a>
+                    <a href="/">
                         <img className="w-[20px] h-[20px]" src="Linkedin.png" alt=""/>
                     </a>
                 </div>
