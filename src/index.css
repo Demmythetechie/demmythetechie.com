@@ -16,4 +16,47 @@ code {
     monospace;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@font-face {
+  font-family: "chakrapetch-Bold";
+  src: url("../public/fonts/ChakraPetch-Bold.ttf")
+}
+
+@font-face {
+  font-family: "chakrapetch-BoldItalic";
+  src: url("../public/fonts/ChakraPetch-BoldItalic.ttf")
+}
+
+@font-face {
+  font-family: "chakrapetch-Italic";
+  src: url("../public/fonts/ChakraPetch-Italic.ttf")
+}
+@font-face {
+  font-family: "chakrapetch-Light";
+  src: url("../public/fonts/ChakraPetch-Light.ttf")
+}
+
+@font-face {
+  font-family: "chakrapetch-Medium";
+  src: url("../public/fonts/ChakraPetch-Medium.ttf")
+}
+
+@font-face {
+  font-family: "chakrapetch-MediumItalic";
+  src: url("../public/fonts/ChakraPetch-MediumItalic.ttf")
+}
+
+@font-face {
+  font-family: "chakrapetch-Regular";
+  src: url("../public/fonts/ChakraPetch-Regular.ttf")
+}
+
+@font-face {
+  font-family: "chakrapetch-SemiBold";
+  src: url("../public/fonts/ChakraPetch-SemiBold.ttf")
+}
+
+@font-face {
+  font-family: "chakrapetch-SemiBoldItalic";
+  src: url("../public/fonts/ChakraPetch-SemiBoldItalic.ttf")
+}
