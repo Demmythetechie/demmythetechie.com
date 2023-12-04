@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="h-[100vh] w-[100%] bg-black">
+    <div style={{backgroundImage: "url('portfolioBg.png')"}} className="h-[100vh] w-[100%] flex flex-col justify-between bg-contain bg-center">
       <Header/>
       <Intro/>
       <Routes>

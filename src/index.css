@@ -16,47 +16,42 @@ code {
     monospace;
 }
 
-
 @font-face {
-  font-family: "chakrapetch-Bold";
-  src: url("../public/fonts/ChakraPetch-Bold.ttf")
+  font-family: "Ubuntu-Bold";
+  src: url("../public/fonts/Ubuntu-Bold.ttf")
 }
 
 @font-face {
-  font-family: "chakrapetch-BoldItalic";
-  src: url("../public/fonts/ChakraPetch-BoldItalic.ttf")
+  font-family: "Ubuntu-BoldItalic";
+  src: url("../public/fonts/Ubuntu-BoldItalic.ttf")
 }
 
 @font-face {
-  font-family: "chakrapetch-Italic";
-  src: url("../public/fonts/ChakraPetch-Italic.ttf")
-}
-@font-face {
-  font-family: "chakrapetch-Light";
-  src: url("../public/fonts/ChakraPetch-Light.ttf")
+  font-family: "Ubuntu-Italic";
+  src: url("../public/fonts/Ubuntu-Italic.ttf")
 }
 
 @font-face {
-  font-family: "chakrapetch-Medium";
-  src: url("../public/fonts/ChakraPetch-Medium.ttf")
+  font-family: "Ubuntu-Light";
+  src: url("../public/fonts/Ubuntu-Light.ttf")
 }
 
 @font-face {
-  font-family: "chakrapetch-MediumItalic";
-  src: url("../public/fonts/ChakraPetch-MediumItalic.ttf")
+  font-family: "Ubuntu-LightItalic";
+  src: url("../public/fonts/Ubuntu-Light.ttf")
 }
 
 @font-face {
-  font-family: "chakrapetch-Regular";
-  src: url("../public/fonts/ChakraPetch-Regular.ttf")
+  font-family: "Ubuntu-Medium";
+  src: url("../public/fonts/Ubuntu-Medium.ttf")
 }
 
 @font-face {
-  font-family: "chakrapetch-SemiBold";
-  src: url("../public/fonts/ChakraPetch-SemiBold.ttf")
+  font-family: "Ubuntu-MediumItalic";
+  src: url("../public/fonts/Ubuntu-MediumItalic.ttf")
 }
 
 @font-face {
-  font-family: "chakrapetch-SemiBoldItalic";
-  src: url("../public/fonts/ChakraPetch-SemiBoldItalic.ttf")
+  font-family: "Ubuntu-Regular";
+  src: url("../public/fonts/Ubuntu-Regular.ttf")
 }

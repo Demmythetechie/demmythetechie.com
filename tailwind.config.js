@@ -4,16 +4,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        ChakraPetch_Bold: ['ChakraPetch-Bold'],
-        ChakraPetch_BoldItalic: ['ChakraPetch-BoldItalic'],
-        ChakraPetch_Italic: ['ChakraPetch-Italic'],
-        ChakraPetch_Light: ['ChakraPetch-Light'],
-        ChakraPetch_LightItalic: ['ChakraPetch-LightItalic'],
-        ChakraPetch_Medium: ['ChakraPetch-Medium'],
-        ChakraPetch_MediumItalic: ['ChakraPetch-MediumItalic'],
-        ChakraPetch_Regular: ['ChakraPetch-Regular'],
-        ChakraPetch_SemiBold: ['ChakraPetch-SemiBold'],
-        ChakraPetch_SemiBoldItalic: ['ChakraPetch-SemiBoldItalic'],
+        Ubuntu_Bold: ['Ubuntu-Bold'],
+        Ubuntu_BoldItalic: ['Ubuntu-BoldItalic'],
+        Ubuntu_Italic: ['Ubuntu-Italic'],
+        Ubuntu_Light: ['Ubuntu-Light'],
+        Ubuntu_LightItalic: ['Ubuntu-LightItalic'],
+        Ubuntu_Medium: ['Ubuntu-Medium'],
+        Ubuntu_MediumItalic: ['Ubuntu-MediumItalic'],
+        Ubuntu_Regular: ['Ubuntu-Regular'],
       }
     },
   },
