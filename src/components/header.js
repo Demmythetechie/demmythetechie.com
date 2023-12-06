@@ -9,7 +9,7 @@ function Header(){
                 <Link className="text-white font-Ubuntu_Medium" to="/about">Home</Link>
                 <Link className="text-white font-Ubuntu_Medium" to="/portfolio">Works</Link>
                 <Link className="text-white font-Ubuntu_Medium" to="/resume">Resume</Link>
-                <Link className="text-white font-Ubuntu_Medium" to="/about">Contact</Link>
+                <Link className="flex justify-center items-center w-[90px] h-[28px] text-black font-Ubuntu_Medium bg-[#fff] rounded-[20px] text-center" to="/about">Contact</Link>
             </nav>
         </div>
     );
