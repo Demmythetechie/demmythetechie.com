@@ -33,13 +33,13 @@ function Works () {
 
                     </div>
                     <div className="flex flex-col justify-center items-end h-full w-[500px] gap-y-[20px] pl-[30px] pr-[20px]">
-                        <p className="text-[27px] text-white font-Ubuntu_Medium">OlaBaruwa & Co Audit Firm</p>
+                        <p className="animate-[para1_1s_ease-in-out_1] fill-mode-forwards delay-75 text-[27px] text-white font-Ubuntu_Medium">OlaBaruwa & Co Audit Firm</p>
                         <div>
-                            <p className="text-white text-[20px] font-Ubuntu_Light text-right">
+                            <p className="animate-[para2_1s_ease-in-out_1] fill-mode-forwards delay-75 text-white text-[20px] font-Ubuntu_Light text-right">
                                 OlaBaruwa & Co is company website of an Audit firm that runs several auditing services varying from Statutory Audit, investigation and Forensic Audit ... 
                             </p>
                         </div>
-                        <div className="flex flex-row items-center gap-x-[20px]">
+                        <div className="animate-[para3_1s_ease-in-out_1] fill-mode-forwards delay-75 flex flex-row items-center gap-x-[20px]">
                             <img src="github.png" alt="" className="w-[35px] h-[35px]"/>
                             <svg onMouseOver={inn} onMouseOut={out} ref={incr} width="40" height="45" className="flex justify-center items-center rotate-[90deg]">
                                 <line ref={ch} x1="20" y1="12" x2="20" y2="45" stroke="#fff" strokeWidth="2"/>
@@ -58,7 +58,7 @@ function Slide(props) {
     return (
         <svg width="40" height="40" className={props.cls}>
             <g>
-                <circle className="group-hover:animate-[rnd_1s_ease-in-out_1]" cx="20" cy="18" r="16" stroke="#fff" fill="none" strokeWidth="2" strokeDasharray="24 4" strokeDashoffset="0"/>
+                <circle className="group-hover:animate-[rnd_1s_ease-in-out_1] group-hover:delay-0 group-hover:fill-mode-forwards" cx="20" cy="18" r="16" stroke="#fff" fill="none" strokeWidth="2" strokeDasharray="24 4" strokeDashoffset="0"/>
                 <polyline points="12,22 20,12 28,22" stroke="#fff" strokeWidth="3" fill="none" strokeLinecap="round" strokeDasharray="6 4"/>
             </g>
         </svg>
