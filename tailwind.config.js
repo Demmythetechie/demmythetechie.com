@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import { guages } from './src/storage';
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -12,9 +13,17 @@ module.exports = {
         Ubuntu_Medium: ['Ubuntu-Medium'],
         Ubuntu_MediumItalic: ['Ubuntu-MediumItalic'],
         Ubuntu_Regular: ['Ubuntu-Regular'],
-      }
+      },
+      keyframes: {
+        rnd: {
+          '0%': { strokeDashoffset: '0'},
+          '100%': {strokeDashoffset: '50'},
+        }
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-clip-path'),
+  ],
 }
 
