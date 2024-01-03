@@ -30,7 +30,23 @@ module.exports = {
         para3 : {
           '0%': { marginBottom: '-250px', opacity: '0'},
           '100%': { marginBottom: '0px', opacity: '1'}
-        }
+        },
+        title : {
+          '0%' : { marginLeft: '-30px', opacit: '0' },
+          '100%' : {marginLeft: '0px', opacity: '1'}
+        },
+        line : {
+          '0%' : { width: '0px' },
+          '100%' : { width: '200px'}
+        },
+        bg : {
+          '0%' : { marginLeft: '500px', opacity: '0'},
+          '100%' : { marginLeft: '0px', opacity: '1'}
+        },
+      },
+      animationDelay: {
+        '2000': '2s',
+        '1500': '1500ms'
       },
     },
   },
