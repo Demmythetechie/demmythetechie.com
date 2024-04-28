@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 function Header(){
     return (
-        <div className="flex flex-row items-center justify-between h-[10%] w-full pl-[8vh] pr-[8vh] max-[800px]:justify-between max-[800px]:pr-[4vh] max-[800px]:pl-[4vh]">
+        <div className="flex flex-row items-center justify-between h-[9%] w-full pl-[8vh] pr-[8vh] max-[800px]:justify-between max-[800px]:pr-[4vh] max-[800px]:pl-[4vh]">
             <img className="w-[30px] h-[30px]" src="logo_white.png" alt=""/>
             <nav className="w-[45%] flex flex-row justify-between items-center max-[1024px]:w-[38%] max-[1024px]:ml-[5%] max-[800px]:hidden">
                 <Link className="text-white font-Ubuntu_Medium text-[1vw] max-[1024px]:text-[1.3vw]" to="/">Home</Link>
