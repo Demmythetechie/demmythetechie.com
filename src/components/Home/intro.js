@@ -8,7 +8,7 @@ function Intro () {
                     <p className="text-white text-[1.5vw] font-Ubuntu_Light max-[480px]:text-[3.8vw] max-[600px]:text-[2.6vw] max-[1024px]:text-[2.3vw]">A Full-Stack web Developer</p>
                 </div>
             </div>
-            <div className="absolute flex flex-col justify-between items-center w-[2%] aspect-[1/12] z-2 bottom-[0px] right-[10px] max-[1024px]:w-[2.5%] max-[800px]:w-[3%] max-[600px]:w-[3.8%] max-[480px]:w-[4.8%] max-[300px]:w-[7%] max-[480px]:right-[5px]">
+            <div className="absolute flex flex-col justify-between items-center w-[2%] aspect-[1/12] z-2 bottom-[0px] right-[10px] max-[1024px]:w-[2.5%] max-[800px]:w-[3%] max-[600px]:w-[3.8%] max-[480px]:w-[6%] max-[300px]:w-[7%] max-[480px]:right-[5px]">
                 <img className="w-[75%] aspect-[1/1]" src="github.png" alt=""/>
                 <img className="w-[75%] aspect-[1/1]" src="Linkedin.png" alt=""/>
                 <img className="w-[75%] aspect-[1/1]" src="twitter.png" alt=""/>
