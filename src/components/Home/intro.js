@@ -1,6 +1,6 @@
 function Intro () {
     return (
-        <div className="flex flex-row justify-center h-[90%] w-[100%] ">
+        <div className="flex flex-row justify-center items-center h-[90vh] w-[100%] ">
             <div className="flex flex-col justify-center items-center w-[25%] aspect-[1/1] max-[480px]:w-[55%] max-[1024px]:w-[35%]">
                 <div className="rounded-[50%] w-[85%] aspect-[1/1] bg-[url('/public/Naheem.png')] bg-cover bg-no-repeat bg-[top-center] max-[1024px]:w-[70%] max-[600px]:w-[85%]"></div>
                 <div className="w-[90%] aspect-[1/0.3] flex flex-col justify-center items-center">
