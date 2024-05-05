@@ -1,6 +1,13 @@
-import { useRef } from "react";
+import { useRef, useContext } from "react";
+import { boolContext } from "../../App";
 
 function Works () {
+
+    const {updateBool} = useContext(boolContext);
+
+    function hideNav() {
+        updateBool(false);
+    }
 
     const ch = useRef();
     const incr = useRef();
@@ -16,7 +23,7 @@ function Works () {
     
 
     return (
-        <section className="h-[100vh] w-full flex flex-col items-center pl-[30px] pr-[30px] justify-around">
+        <section onClick={hideNav} className="h-[100vh] w-full flex flex-col items-center pl-[30px] pr-[30px] justify-around">
             <div className="w-full flex flex-col justify-start gap-y-[1px] mt-[30px]">
                 <div className="animate-[title_1s_ease-in-out_1] delay-75 fill-mode-forwards w-full flex flex-col justify-start opacity-0 ml-[-30px]">
                     <p className="text-[50px] mb-[-10px] text-white font-Ubuntu_Regular">Featured Project</p>

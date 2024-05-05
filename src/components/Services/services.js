@@ -1,8 +1,16 @@
 import { services, skills, guages } from "../../storage.js";
+import { boolContext } from "../../App.js";
+import { useContext } from "react";
 
 function Service () {
+    const {updateBool} = useContext(boolContext);
+
+    function hideNav() {
+        updateBool(false);
+    }
+
     return (
-        <div className="overflow-hidden flex flex-col h-[90vh] pl-[30px] pr-[30px]">
+        <div onClick={hideNav} className="overflow-hidden flex flex-col h-[90vh] pl-[30px] pr-[30px] border border-white">
             <section className="w-[100%] h-[35%]">
                 <Section head="Services" para="Here are some services we provide" cls="section1 flex flex-col pt-[3%] ml-[-20px] opacity-0"/>
                 <div className="h-[60%] flex flex-row flex-wrap items-center justify-between pl-[20px] pr-[20px]">
