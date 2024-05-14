@@ -27,10 +27,10 @@ function Service () {
                     ))}
                 </div>
             </section>
-            <section className="max-[1000px]:flex h-[45vh] w-[100%] hidden border border-white">
+            <section className="max-[1000px]:flex h-[45vh] w-[100%] hidden">
                 <Section head="Services" para="Here are some services we provide" cls="section1 flex flex-col pt-[2%] ml-[-20px] opacity-0 w-full aspect-[1/0.05]"/>
             </section>
-            <section className="max-[1000px]:flex h-[45vh] w-[100%] hidden border border-white">
+            <section className="max-[1000px]:flex h-[45vh] w-[100%] hidden">
                 <Section head="Skill-set" para="Tools used for executing services" cls="section2 flex flex-col items-end pt-[1%] mr-[-20px] opacity-0 w-[100%] aspect-[1/0.03]"/>
             </section>
         </div>
