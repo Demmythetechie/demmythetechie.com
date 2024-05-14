@@ -43,6 +43,10 @@ module.exports = {
           '0%' : { marginLeft: '500px', opacity: '0'},
           '100%' : { marginLeft: '0px', opacity: '1'}
         },
+        underline : {
+          '0%' : { width: '0%' },
+          '100%' : {width: '12%'}
+        }
       },
       animationDelay: {
         '2000': '2s',
