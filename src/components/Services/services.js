@@ -10,7 +10,7 @@ function Service () {
     }
 
     return (
-        <div onClick={hideNav} className="overflow-hidden flex flex-col justify-center items-center h-[90vh] w-full pl-[2.5%] pr-[2.5%] border border-white">
+        <div onClick={hideNav} className="overflow-hidden flex flex-col justify-center items-center h-[90vh] w-full pl-[2.5%] pr-[2.5%]">
             <section className="max-[1000px]:hidden w-[100%] aspect-[1/0.1]">
                 <Section head="Services" para="Here are some services we provide" cls="section1 flex flex-col pt-[2%] ml-[-20px] opacity-0 w-full aspect-[1/0.05]"/>
                 <div className="w-[100%] aspect-[1/0.086] flex flex-row flex-wrap items-center justify-between pl-[1%] pr-[1%]">
