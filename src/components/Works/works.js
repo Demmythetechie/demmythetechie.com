@@ -134,13 +134,15 @@ function Works () {
                                     <p className="animate-[para2_1s_ease-in-out_1] fill-mode-forwards delay-1500 opacity-0 text-white text-[20px] font-Ubuntu_Light text-right">{work.summary} ... </p>
                                 </div>
                                 <div className=" w-full justify-end animate-[para3_1s_ease-in-out_1] fill-mode-forwards delay-1000 opacity-0 flex flex-row items-center gap-x-[7%]">
-                                    <img href={work.githubLink} src="github.png" alt="" className="w-[7%] aspect-[1/1]"/>
-                                    <div href={work.website} className="w-[8%] aspect-square">
+                                    <a href={work.githubLink} target="_blank" className="w-[7%] aspect-[1/1]">
+                                        <img src="github.png" alt="" className="w-[100%] aspect-[1/1]"/>
+                                    </a>
+                                    <a href={work.website} target="_blank" className="w-[8%] aspect-square">
                                         <svg onMouseOver={inn} onMouseOut={out} ref={incr} viewBox="0 0 40 45" className="flex justify-center items-center rotate-[90deg]">
                                             <line ref={ch} x1="20" y1="12" x2="20" y2="45" stroke="#fff" strokeWidth="2"/>
                                             <polyline points="13,22 20,12 27,22" stroke="#fff" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
                                         </svg>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </section>
