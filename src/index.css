@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -56,170 +57,30 @@ code {
   src: url("../public/fonts/Ubuntu-Regular.ttf")
 }
 
-.progress0 {
-  animation-name: prg0;
-  animation-duration: 1.5s;
-  animation-delay: 1s;
+.slideIncr {
+  animation-name: incr;
+  animation-duration: 0.2s;
+  animation-delay: 0s;
   animation-direction: normal;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-}
-
-@keyframes prg0 {
-  from {stroke-dasharray: 0, 250;}
-  to {stroke-dasharray: 215, 35;}
-}
-
-.progress1 {
-  animation-name: prg1;
-  animation-duration: 1.5s;
-  animation-delay: 1s;
-  animation-direction: normal;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-}
-
-@keyframes prg1 {
-  from {stroke-dasharray: 0, 250;}
-  to {stroke-dasharray: 225, 25;}
-}
-
-.progress2 {
-  animation-name: prg2;
-  animation-duration: 1.5s;
-  animation-delay: 1s;
-  animation-direction: normal;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-}
-
-@keyframes prg2 {
-  from {stroke-dasharray: 0, 250;}
-  to {stroke-dasharray: 160, 90;}
-}
-
-.progress3 {
-  animation-name: prg3;
-  animation-duration: 1.5s;
-  animation-delay: 1s;
-  animation-direction: normal;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-}
-
-@keyframes prg3 {
-  from {stroke-dasharray: 0, 250;}
-  to {stroke-dasharray: 145, 105;}
-}
-
-.progress4 {
-  animation-name: prg4;
-  animation-duration: 1.5s;
-  animation-delay: 1s;
-  animation-direction: normal;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-}
-
-@keyframes prg4 {
-  from {stroke-dasharray: 0, 250;}
-  to {stroke-dasharray: 220, 30;}
-}
-
-.progress5 {
-  animation-name: prg5;
-  animation-duration: 1.5s;
-  animation-delay: 1s;
-  animation-direction: normal;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-}
-
-@keyframes prg5 {
-  from {stroke-dasharray: 0, 250;}
-  to {stroke-dasharray: 200, 50;}
-}
-
-.progress6 {
-  animation-name: prg6;
-  animation-duration: 1.5s;
-  animation-delay: 1s;
-  animation-direction: normal;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-}
-
-@keyframes prg6 {
-  from {stroke-dasharray: 0, 250;}
-  to {stroke-dasharray: 230, 20;}
-}
-
-.progress7 {
-  animation-name: prg7;
-  animation-duration: 1.5s;
-  animation-delay: 1s;
-  animation-direction: normal;
-  animation-timing-function: ease;
-  animation-fill-mode: forwards;
-}
-
-@keyframes prg7 {
-  from {stroke-dasharray: 0, 250;}
-  to {stroke-dasharray: 210, 60;}
-}
-
-.trans0 {
-  animation-name: trn0;
-  animation-duration: .7s;
-  animation-delay: .2s;
-  animation-direction: normal;
-  animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
-}
-
-@keyframes trn0 {
-  from {margin-top: 30px; opacity: 0;}
-  to {margin-top: 0px; opacity: 1;}
-}
-
-.section1{
-  animation-name: sec1;
-  animation-duration: .7s;
-  animation-delay: .2s;
-  animation-direction: normal;
   animation-fill-mode: forwards;
-  animation-timing-function: ease-in-out;
 }
 
-@keyframes sec1 {
-  from {margin-left: -20px; opacity: 0;}
-  to {margin-left: 0px; opacity: 1;}
+@keyframes incr {
+  from {width: 0%;}
+  to {width: 100%;}
 }
 
-.section2{
-  animation-name: sec2;
-  animation-duration: .7s;
-  animation-delay: .2s;
+.slideDecr {
+  animation-name: decr;
+  animation-duration: 0.2s;
+  animation-delay: 0s;
   animation-direction: normal;
-  animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
-}
-
-@keyframes sec2 {
-  from {margin-right: -20px; opacity: 0;}
-  to {margin-right: 0px; opacity: 1;}
-}
-
-.list{
-  animation-name: ls;
-  animation-duration: .7s;
-  animation-delay: .2s;
-  animation-direction: normal;
   animation-fill-mode: forwards;
-  animation-timing-function: ease-in-out;
 }
 
-@keyframes ls {
-  from {margin-top: -100px; opacity: 0;}
-  to {margin-top: 0px; opacity: 1;}
+@keyframes decr {
+  from {width: 100%;}
+  from {width: 0%;}
 }

@@ -1,7 +1,7 @@
 const navigation = [
     {page: 'Home', goto: '/'},
-    {page: 'Services', goto: '/service'},
-    {page: 'works', goto: '/work'},
+    {page: 'Works', goto: '/work'},
+    {page: 'Journey', goto: '/'},
     {page: 'Resume', goto: '/resume'}
 ];
 

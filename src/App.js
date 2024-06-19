@@ -1,6 +1,5 @@
 import Header from './components/header';
 import Intro from './components/Home/intro';
-import Service from './components/Services/services';
 import Works from './components/Works/works';
 import { createContext, useState } from 'react';
 
@@ -17,8 +16,8 @@ function App() {
         <Routes>
           <Route path='' element={<Intro/>}/>
           <Route path='/home' element={<Intro/>}/>
-          <Route path='/service' element={<Service/>}/>
           <Route path='/work' element={<Works/>}/>
+          <Route path='/journey' element={<Intro/>}/>
           <Route path='/resume' element={<Intro/>}/>
           <Route path='/contact' element={<Intro/>}/>
         </Routes>
