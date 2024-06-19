@@ -49,7 +49,7 @@ function Works () {
     useEffect(()=> {
         (async () => {
             try {
-                await axios.get('http://localhost:4000/work')
+                await axios.get('https://portfolio-api-three-gules.vercel.app/work')
                 .then(function (response) {
                     console.log(response.data)
                     updateWork({type: 'intialState', value: response.data});
