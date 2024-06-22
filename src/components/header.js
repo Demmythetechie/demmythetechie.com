@@ -30,7 +30,7 @@ function Header(){
             </nav>
             <div className="max-[800px]:hidden hidden max-[1024px]:flex justify-center text-[1.1vw] max-[1024px]:text-[1.3vw] items-center w-[90px] h-[28px] text-black font-Ubuntu_Medium bg-[#fff] rounded-[20px] text-center">Contact</div>
             <div onClick={nav} className="max-[800px]:mr-[4vh] min-[801px]:hidden max-[800px]:flex items-center justify-center w-[4%] h-[45%] max-[480px]:w-[7%]">
-                <svg viewBox="0 0 100 100">
+                <svg fill="#fff" viewBox="0 0 100 100">
                     <line x1="0" y1="25" x2="100" y2="25" stroke="#fff" strokeWidth="7" strokeLinecap="round"/>
                     <line x1="0" y1="50" x2="70" y2="50" stroke="#fff" strokeWidth="7" strokeLinecap="round"/>
                     <line x1="0" y1="75" x2="90" y2="75" stroke="#fff" strokeWidth="7" strokeLinecap="round"/>
