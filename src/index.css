@@ -84,3 +84,17 @@ code {
   from {width: 100%;}
   from {width: 0%;}
 }
+
+.mobileanime{
+  animation-name: mob;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mob {
+  from {opacity: 0; padding-top: 200px;}
+  to {opacity: 1; padding-top: 0px;}
+}
