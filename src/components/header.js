@@ -20,7 +20,7 @@ function Header(){
     }
 
     return (
-        <div className="max-[800px]:absolute max-[800px]:z-[1] max-[800px]:top-[0%] flex flex-row items-center justify-between h-[10vh] w-full pl-[8vh] pr-[8vh] max-[800px]:justify-between max-[800px]:pr-[0vh] max-[800px]:pl-[0vh]">
+        <div className="max-[800px]:absolute max-[800px]:z-30 max-[800px]:top-[0%] flex flex-row items-center justify-between h-[10vh] w-full pl-[8vh] pr-[8vh] max-[800px]:justify-between max-[800px]:pr-[0vh] max-[800px]:pl-[0vh]">
             <a href="https://demmythetechie-com-naheem-okunades-projects.vercel.app/"><img className="w-[30px] h-[30px] max-[800px]:ml-[4vh]" src="logo_white.png" alt=""/></a>
             <nav className="w-[45%] flex flex-row justify-between items-center max-[1024px]:w-[38%] max-[1024px]:ml-[5%] max-[800px]:hidden">
                 {navigation.map((nav)=>(
