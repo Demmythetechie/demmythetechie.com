@@ -185,6 +185,12 @@ function Workmobile () {
         updatePick(idx);
     }
 
+    const {updateBool} = useContext(boolContext);
+    
+    function hideNav() {
+        updateBool(false);
+    }
+
     useEffect(()=> {
         (async () => {
             try {
@@ -203,7 +209,7 @@ function Workmobile () {
     }, []);
 
     return (
-        <section className="max-[800px]:flex w-[100%] hidden pt-[15vh] flex-col items-center pl-[3vw] pr-[3vw] justify-around">
+        <section onClick={hideNav} className="max-[800px]:flex w-[100%] hidden pt-[15vh] flex-col items-center pl-[3vw] pr-[3vw] justify-around">
             <div className="w-full flex flex-col justify-start gap-y-[1px] mt-[1vh]">
                 <div className="animate-[title_1s_ease-in-out_1] delay-75 fill-mode-forwards w-full flex flex-col justify-start opacity-0 ml-[-1vw]">
                     <p className="text-[40px] mb-[-10px] text-white  font-Ubuntu_Regular">Featured Project</p>
