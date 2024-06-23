@@ -186,7 +186,7 @@ function Workmobile () {
     }
 
     const {updateBool} = useContext(boolContext);
-    
+
     function hideNav() {
         updateBool(false);
     }
@@ -221,7 +221,7 @@ function Workmobile () {
                     </svg>
                 </div>
             </div>
-            <div className="w-full flex flex-col items-center gap-y-[7vh] pt-[5vh]">
+            <div className={`w-full flex flex-col items-center gap-y-[7vh] pt-[5vh] ${(mobile) ? '' : 'h-[100vh]'}`}>
                 {mobile && mobile.map((work, index)=>(
                     <div className=" mobileanime opacity-0 pt-[200px] flex flex-col w-[85%] gap-y-[3vh]">
                         <div onClick={()=> flick(index)} className='flex relative w-[100%] aspect-[1/0.8] bg-cover rounded-sm items-end' style={{ backgroundImage: `url(${work.imagePath})` }}>
