@@ -134,6 +134,11 @@ function Works () {
                                     <div>
                                         <p className="animate-[para2_1s_ease-in-out_1] fill-mode-forwards delay-1500 opacity-0 text-white text-[20px] font-Ubuntu_Light text-right max-[1024px]:text-[16px]">{work.summary} ... </p>
                                     </div>
+                                    <div className="w-full flex flex-row flex-wrap gap-x-[2%] gap-y-[1vh]">
+                                        {work.language.map((lang)=>(
+                                            <button className="text-white text-[14px] border border-white rounded-full px-[4%] py-[1%]">{lang}</button>
+                                        ))}
+                                    </div>
                                     <div className=" w-full justify-end animate-[para3_1s_ease-in-out_1] fill-mode-forwards delay-1000 opacity-0 flex flex-row items-center gap-x-[7%]">
                                         <a href={work.githubLink} target="_blank" rel="noopener noreferrer" className="w-[7%] aspect-[1/1]">
                                             <img src="github.png" alt="" className="w-[100%] aspect-[1/1]"/>
