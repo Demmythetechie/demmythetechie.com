@@ -130,13 +130,13 @@ function Works () {
                                     <div style={{backgroundImage: `url(${work.imagePath})`}} className="hover:bg-[length:56vw_70vh] animate-[bg_1s_ease-in-out_1] delay-75 fill-mode-forwards h-full w-full bg-no-repeat bg-cover rounded-[5px] ml-[500px] opacity-0"></div>
                                 </div>
                                 <div className="flex flex-col justify-center items-end h-full w-[45%] gap-y-[20px] pl-[2%] pr-[1.2%]">
-                                    <p className="animate-[para1_1s_ease-in-out_1] fill-mode-forwards delay-1000 text-[27px] opacity-0 text-white font-Ubuntu_Medium max-[1024px]:text-[25px]">{work.name}</p>
+                                    <p className="animate-[para1_1s_ease-in-out_1] fill-mode-forwards delay-1000 text-[27px] opacity-0 text-white font-Ubuntu_Medium max-[1024px]:text-[24px]">{work.name}</p>
                                     <div>
-                                        <p className="animate-[para2_1s_ease-in-out_1] fill-mode-forwards delay-1500 opacity-0 text-white text-[20px] font-Ubuntu_Light text-right max-[1024px]:text-[16px]">{work.summary} ... </p>
+                                        <p className="animate-[para2_1s_ease-in-out_1] fill-mode-forwards delay-1500 opacity-0 text-white text-[20px] font-Ubuntu_Light text-right max-[1024px]:text-[15px]">{work.summary} ... </p>
                                     </div>
-                                    <div className="w-full flex flex-row flex-wrap gap-x-[2%] gap-y-[1vh]">
+                                    <div className="w-full flex flex-row flex-wrap gap-x-[2%] gap-y-[1.5vh] justify-start">
                                         {work.language.map((lang)=>(
-                                            <button className="text-white text-[14px] border border-white rounded-full px-[4%] py-[1%]">{lang}</button>
+                                            <button className="text-white max-[1024px]:text-[12px] text-[14px] border border-white rounded-full px-[4%] py-[1%]">{lang}</button>
                                         ))}
                                     </div>
                                     <div className=" w-full justify-end animate-[para3_1s_ease-in-out_1] fill-mode-forwards delay-1000 opacity-0 flex flex-row items-center gap-x-[7%]">
