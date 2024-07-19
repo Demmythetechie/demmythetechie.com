@@ -1,6 +1,7 @@
 import Header from './components/header';
 import Intro from './components/Home/intro';
 import Works from './components/Works/works';
+import Timeline from './components/journey/timeline';
 import { createContext, useState } from 'react';
 
 import { Routes, Route, useLocation } from 'react-router-dom';
@@ -19,7 +20,7 @@ function App() {
           <Route path='' element={<Intro/>}/>
           <Route path='/home' element={<Intro/>}/>
           <Route path='/work' element={<Works/>}/>
-          <Route path='/journey' element={<Intro/>}/>
+          <Route path='/journey' element={<Timeline/>}/>
           <Route path='/resume' element={<Intro/>}/>
           <Route path='/contact' element={<Intro/>}/>
         </Routes>

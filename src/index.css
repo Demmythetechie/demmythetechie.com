@@ -98,3 +98,31 @@ code {
   from {opacity: 0; padding-top: 200px;}
   to {opacity: 1; padding-top: 0px;}
 }
+
+.pwdCode {
+  animation-name: pwd;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes  pwd {
+  from {width: 34.7%;}
+  to {width: 41.5%;}
+}
+
+.cursor {
+  animation-name: blink;
+  animation-duration: 1000ms;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-timing-function: step-end;
+  animation-fill-mode: backwards;
+  animation-iteration-count: 5;
+}
+
+@keyframes blink {
+  60% {opacity: 1;}
+}
